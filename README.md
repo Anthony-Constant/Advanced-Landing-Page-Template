@@ -36,7 +36,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgements
 
-The Port Scanner script was created by [Anthony Constant](https://anthonyconstant.co.uk/).
+The Advanced Landing Page Template was created by [Anthony Constant](https://anthonyconstant.co.uk/).
 
 ## Support My Work
 
