@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+	--primary: #48adc9;
+	--secondary: #000000;
+	--dark: #6e8387;
+	--hover: #368499;
+}
+
+body {
+	color: var(--secondary) !important;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.btn-primary {
+	background-color: var(--primary);
+	border-color: var(--primary);
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: var(--hover) !important;
+	border-color: var(--hover) !important;
+}
+
+.slider div {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom right;
+}
+
+.slick-dots {
+	text-align: left;
+	margin-left: 5%;
+}
+
+.slick-dots li button:before {
+	font-size: 10px;
+}
+
+.slick-active button:before {
+	color: var(--primary) !important;
+}
+
+section {
+	margin: 150px auto;
+}
+
+.bg-primary {
+	background: var(--primary) !important;
+}
+
+.bg-secondary {
+	background: var(--secondary) !important;
+}
+
+.bottom-illustration {
+
+  background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+
+
+}
+
+
+h1 {
+
+	color: #24262b;
+}
+
+h2 {
+
+	color: #24262b;
+}
+
+h3 {
+
+	color: #24262b;
+}
+
+
+h5 {
+
+	color: #24262b;
+}
+
+
+
+/* Form Stuff*/
+
+input {
+    
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;    
+}
+
+
+
+/* Footer stuff */ 
+
+  body{margin-top:20px;}
+.bg-footer {
+    background-color: #3b4757 !important;
+}
+.footer {
+  padding: 60px 0;
+  position: relative;
+  color: #adb5bd;
+}
+
+.footer .logo-footer {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 3px 0;
+  letter-spacing: 1px;
+}
+
+.footer .footer-head {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+
+.footer .text-foot {
+  color: #adb5bd;
+}
+
+.footer .footer-list {
+  margin-bottom: 0;
+}
+
+.footer .footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer .footer-list li a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer .footer-list li a:hover {
+  color: #6dc77a !important;
+}
+
+.footer .footer-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer.footer-bar {
+  padding: 30px 0;
+  border-top: 1px solid #6c757d;
+}
+
+.footer.footer-bar .payment-cards img {
+  height: 25px;
+}
+
+.social-icon.social li a {
+    color: #adb5bd;
+    border-color: #adb5bd;
+}
+.social-icon li a {
+    color: #35404e;
+    border: 1px solid #35404e;
+    display: inline-block;
+    height: 32px;
+    text-align: center;
+    font-size: 15px;
+    width: 32px;
+    line-height: 30px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    position: relative;
+}
+.rounded {
+    border-radius: 5px !important;
+}
+
+/*FAQ stuff */ 
+
+body{margin-top:20px;}
+.accordion-style .card {
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 15px;
+    margin-top: 0 !important;
+    border: none;
+}
+.accordion-style .card:last-child {
+    margin-bottom: 0;
+}
+.accordion-style .card-header {
+    border: 0;
+    background: none;
+    padding: 0;
+    border-bottom: none;
+}
+.accordion-style .btn-link {
+    color: #ffffff;
+    position: relative;
+    background: #368499;
+    border: 1px solid #368499;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: left;
+    white-space: normal;
+    box-shadow: none;
+    padding: 15px 55px;
+    text-decoration: none;
+}
+.accordion-style .btn-link:hover {
+    text-decoration: none;
+}
+.accordion-style .btn-link.collapsed {
+    background: #ffffff;
+    border: 1px solid #48adc9;
+    color: #1e2022;
+    border-radius: 3px;
+}
+.accordion-style .btn-link.collapsed:after {
+    background: none;
+    border-radius: 3px;
+    content: "+";
+    left: 16px;
+    right: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    height: 26px;
+    transform: none;
+    width: 26px;
+    top: 15px;
+    text-align: center;
+    background-color: #48adc9;
+    color: #fff;
+}
+.accordion-style .btn-link:after {
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    content: "-";
+    left: 16px;
+    right: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    height: 26px;
+    line-height: 26px;
+    transform: none;
+    width: 26px;
+    top: 15px;
+    position: absolute;
+    color: #15395a;
+    text-align: center;
+}
+.accordion-style .card-body {
+    padding: 20px;
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid #15395a;
+    border-right: 1px solid #15395a;
+    border-bottom: 1px solid #15395a;
+}
+@media screen and (max-width: 767px) {
+    .accordion-style .btn-link {
+        padding: 15px 40px 15px 55px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .accordion-style .btn-link {
+        padding: 15px 20px 15px 55px;
+    }
+}
+.card-style1 {
+    box-shadow: 0px 0px 10px 0px rgb(89 75 128 / 9%);
+}
+.border-0 {
+    border: 0!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.text-primary {
+    color: #48adc9 !important;
+}
+
+
+
+.logo-slider {
+  animation: slidein 30s linear infinite;
+  white-space: nowrap;
+}
+
+.logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+}
+
+.fab {
+  width: calc(100% / 5);
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
