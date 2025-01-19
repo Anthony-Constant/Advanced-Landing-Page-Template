@@ -30,6 +30,10 @@ This project relies on the following libraries and frameworks:
 - [Slick Carousel](https://kenwheeler.github.io/slick/): Enables the carousel slider functionality for showcasing content.
 - [Font Awesome](https://fontawesome.com/): Offers a collection of icons used throughout the website.
 
+## Demo
+
+https://youtu.be/W5zGi8LXino
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
